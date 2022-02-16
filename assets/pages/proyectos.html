@@ -1,33 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="Nicolas Brest">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SB Arquitectas</title>
     <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
-    <!--fila de logo + nav-->
+    
+    <div class="gridGeneral">
+
     <header>
-        <img src="/assets/images/SB.png" class="logo" alt="Logo"/>
+        
+        <img src="/assets/images/SB.png" alt="Logo" width="200px" height="200px"/>
+    </header>
+    
+    <div class="navMenu">
         <nav>
             <!--etiqueta de lista no ordenada-->
-            <ul>
-                <li><a href="/index.html">Home</a></li> 
-                <li><a href="/assets/pages/staff.html">Staff</a></li>
-                <li><a href="/assets/pages/proyectos.html">Proyectos</a></li>
-                <li><a href="/assets/pages/noticias.html">Noticias</a></li>
-                <li><a href="/assets/pages/contacto.html">Contacto</a></li>
-            </ul>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="/index.html">Home</a></li> 
+                <li role="presentation" class="active"><a href="staff.html">Staff</a></li>
+                <li role="presentation" class="active"><a href="proyectos.html">Proyectos</a></li>
+                <li role="presentation" class="active"><a href="noticias.html">Noticias</a></li>
+                <li role="presentation" class="active"><a href="contacto.html">Contacto</a></li>
+            </ul>    
         </nav>
-    </header>
+    </div>
 <!---cierre de logo + botones-->
 
 <!---Cuerpo de inicio-->
 <img src="/assets/images/proyectos.jpg" alt="Imagen fondo"/>
     <ol>
-        <li>Primero tenemos que estipular el presupuesto que tenemos pensado para ese proyecto en particular</li>
+        <li class="fondop">Primero tenemos que estipular el presupuesto que tenemos pensado para ese proyecto en particular</li>
         <li>Determinar con un profesional cuales son las necesidades básicas a cumplir en ese espacio, ya sea una reforma, ampliación o remodelación</li>
         <li>En base al presupuesto que tenemos verificar si es posible realizar una obra completa o hacerla en etapas, esto lo sabremos una vez que se cotice la mano de obra por los trabajos que se desean realizar</li>
         <li>La selección de materiales es fundamental, ya que estos variaran notablemente el costo final, no es lo mismo utilizar cerámica que porcellanato por ejemplo</li>
@@ -35,10 +44,15 @@
     </ol>
 
 <!--cierre de contenido principal -->
-<footer>
+<footer class="footer">
     <h4>SB Arquitectas S.A</h4>
     <h4>Argentina 2022</h4>
 </footer>
+
+</div>
+
+<!--Java script de Bootstrap-->
+<script src="js/bootstrap.js"></script>
 
 </body>
 
