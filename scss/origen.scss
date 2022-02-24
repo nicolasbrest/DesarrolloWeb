@@ -66,11 +66,9 @@ ul{
     list-style-type: none;
     text-align: right;
     word-spacing: 20px;
-}
-
-li{
-    display: inline;
-    margin-right: 50px;
+    li
+        display: inline;
+        margin-right: 50px;
 }
 
 a{
